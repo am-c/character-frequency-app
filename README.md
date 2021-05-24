@@ -1,2 +1,2 @@
-# character-frequency
+# character-frequency-app
 Character Frequency React App
