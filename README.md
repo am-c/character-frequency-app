@@ -1,11 +1,14 @@
 # character-frequency-app
 Character Frequency React App
 
+<p>
 ---
-Clone or download app
-run 'npm install'
-run 'npm start'
+<br/>
+clone repository <br/>
+run 'npm install' <br/>
+run 'npm start' <br/>
 ---
+</p>
 
 https://user-images.githubusercontent.com/18177197/119413659-aea2ba00-bcb3-11eb-98f4-0a96c89f49f0.mp4
 
