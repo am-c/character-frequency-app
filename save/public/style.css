@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+  background-color: #fff;
+}
+
+h1, div, p, span {
+  transition: ease-in-out 0.5s;
+}
+
+.container {
+  font-family: 'Inconsolata', monospace;
+  padding-top: 1%;
+  padding-bottom: 5%;
+  overflow: hidden;
+}
+
+h1 {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.saved-alert {
+  position:absolute; 
+  margin: 0 auto; 
+  display:none;
+}
+
+.form-control {
+  resize: none !important;
+  box-shadow: 0 8px 6px -6px #b9b9b9;
+  background-color: #eee;
+  display: flex;
+  border: 5px black solid !important;
+}
+
+.form-control:focus,
+.btn:focus {
+  border-color: transparent !important;
+  box-shadow: 0 0 0 0.1rem #80808029;
+}
+
+.form-control:focus {
+  background-color: #eee;
+  border: 5px #2b93a0 solid !important;
+}
+
+.char-output {
+  font-size: 1em;
+  word-break: break-word;
+}
+
+.char-count {
+  columns: 4;
+}
+
+.char-count span {
+  margin-bottom: 1em;
+  display: inline-block;
+}
+
+/* Max Width 970px */
+
+@media only screen and (max-width: 970px) {
+  .char-count {
+    columns: 2;
+  }
+}
+
+/* Max Width 375px */
+@media only screen and (max-width: 375px) {
+  .char-count {
+    columns: 1;
+  }
+}
